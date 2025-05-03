@@ -1,0 +1,15 @@
+componentType: service
+name: webhostmost-ws-nodejs
+source:
+  path: .
+build:
+  env: []
+  command: npm install
+  outputDir: .
+runner: nodejs
+executable: index.js
+endpoints:
+  - name: default
+    port: 3000
+    type: REST
+    context: /
