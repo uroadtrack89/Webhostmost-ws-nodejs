@@ -7,7 +7,7 @@ build:
   command: npm install
   outputDir: .
 runner: nodejs
-executable: index.js
+executable: app.js
 endpoints:
   - name: default
     port: 3000
