@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js Server",
   "main": "app.js",
+  "type": "commonjs",
   "author": "",
   "repository": "",
   "license": "MIT",
